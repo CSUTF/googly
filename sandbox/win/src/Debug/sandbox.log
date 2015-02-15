@@ -1,0 +1,144 @@
+﻿Build started 2/15/2015 12:22:34 PM.
+     1>Project "C:\Users\DAnnTheMann\Documents\Visual Studio 2013\Projects\Chrome\src\sandbox\win\src\sandbox.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Oy- /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\sandbox.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /FIstdafx.h /analyze- /errorReport:prompt acl.cc app_container.cc app_container_test.cc app_container_unittest.cc broker_services.cc crosscall_server.cc dep.cc eat_resolver.cc filesystem_dispatcher.cc filesystem_interception.cc filesystem_policy.cc file_policy_test.cc handle_closer.cc interception.cc interception_agent.cc job.cc named_pipe_dispatcher.cc named_pipe_interception.cc named_pipe_policy.cc pe_image.cc policy_broker.cc policy_engine_opcodes.cc policy_engine_processor.cc policy_low_level.cc policy_target.cc process_thread_dispatcher.cc process_thread_interception.cc process_thread_policy.cc registry_dispatcher.cc registry_interception.cc registry_policy.cc registry_policy_test.cc resolver.cc resolver_32.cc resolver_64.cc restricted_token.cc restricted_token_unittest.cc restricted_token_utils.cc sandbox.cc sandbox_globals.cc sandbox_nt_util.cc sandbox_policy_base.cc sandbox_utils.cc service_resolver.cc sharedmem_ipc_client.cc sharedmem_ipc_server.cc shared_handles.cc sid.cc sidestep\ia32_modrm_map.cpp sidestep\ia32_opcode_map.cpp sidestep\mini_disassembler.cpp sidestep\preamble_patcher_with_stub.cpp sidestep_resolver.cc sync_dispatcher.cc sync_interception.cc sync_policy.cc sync_policy_test.cc target_interceptions.cc target_process.cc target_services.cc win2k_threadpool.cc window.cc win_utils.cc Wow64.cc
+         acl.cc
+     1>acl.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         app_container.cc
+     1>app_container.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         app_container_test.cc
+     1>app_container_test.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         app_container_unittest.cc
+     1>app_container_unittest.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         broker_services.cc
+     1>broker_services.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         crosscall_server.cc
+     1>crosscall_server.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         dep.cc
+     1>c1xx : fatal error C1083: Cannot open source file: 'dep.cc': No such file or directory
+         eat_resolver.cc
+     1>eat_resolver.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         filesystem_dispatcher.cc
+     1>filesystem_dispatcher.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         filesystem_interception.cc
+     1>filesystem_interception.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         filesystem_policy.cc
+     1>filesystem_policy.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         file_policy_test.cc
+     1>file_policy_test.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         handle_closer.cc
+     1>handle_closer.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         interception.cc
+     1>interception.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         interception_agent.cc
+     1>interception_agent.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         job.cc
+     1>job.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         named_pipe_dispatcher.cc
+     1>named_pipe_dispatcher.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         named_pipe_interception.cc
+     1>named_pipe_interception.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         named_pipe_policy.cc
+     1>named_pipe_policy.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         pe_image.cc
+     1>c1xx : fatal error C1083: Cannot open source file: 'pe_image.cc': No such file or directory
+         Generating Code...
+         Compiling...
+         policy_broker.cc
+     1>policy_broker.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         policy_engine_opcodes.cc
+     1>policy_engine_opcodes.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         policy_engine_processor.cc
+     1>policy_engine_processor.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         policy_low_level.cc
+     1>policy_low_level.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         policy_target.cc
+     1>policy_target.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         process_thread_dispatcher.cc
+     1>process_thread_dispatcher.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         process_thread_interception.cc
+     1>process_thread_interception.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         process_thread_policy.cc
+     1>process_thread_policy.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         registry_dispatcher.cc
+     1>registry_dispatcher.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         registry_interception.cc
+     1>registry_interception.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         registry_policy.cc
+     1>registry_policy.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         registry_policy_test.cc
+     1>registry_policy_test.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         resolver.cc
+     1>resolver.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         resolver_32.cc
+     1>resolver_32.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         resolver_64.cc
+     1>resolver_64.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         restricted_token.cc
+     1>restricted_token.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         restricted_token_unittest.cc
+     1>restricted_token_unittest.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         restricted_token_utils.cc
+     1>restricted_token_utils.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         sandbox.cc
+     1>sandbox.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         sandbox_globals.cc
+     1>sandbox_globals.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         Generating Code...
+         Compiling...
+         sandbox_nt_util.cc
+     1>sandbox_nt_util.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         sandbox_policy_base.cc
+     1>sandbox_policy_base.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         sandbox_utils.cc
+     1>sandbox_utils.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         service_resolver.cc
+     1>service_resolver.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         sharedmem_ipc_client.cc
+     1>sharedmem_ipc_client.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         sharedmem_ipc_server.cc
+     1>sharedmem_ipc_server.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         shared_handles.cc
+     1>shared_handles.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         sid.cc
+     1>sid.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         ia32_modrm_map.cpp
+     1>sidestep\ia32_modrm_map.cpp : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         ia32_opcode_map.cpp
+     1>sidestep\ia32_opcode_map.cpp : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         mini_disassembler.cpp
+     1>sidestep\mini_disassembler.cpp : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         preamble_patcher_with_stub.cpp
+     1>sidestep\preamble_patcher_with_stub.cpp : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         sidestep_resolver.cc
+     1>sidestep_resolver.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         sync_dispatcher.cc
+     1>sync_dispatcher.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         sync_interception.cc
+     1>sync_interception.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         sync_policy.cc
+     1>sync_policy.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         sync_policy_test.cc
+     1>sync_policy_test.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         target_interceptions.cc
+     1>target_interceptions.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         target_process.cc
+     1>target_process.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         target_services.cc
+     1>target_services.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         Generating Code...
+         Compiling...
+         win2k_threadpool.cc
+     1>win2k_threadpool.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         window.cc
+     1>window.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         win_utils.cc
+     1>win_utils.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         Wow64.cc
+     1>Wow64.cc : fatal error C1083: Cannot open precompiled header file: 'Debug\sandbox.pch': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\DAnnTheMann\Documents\Visual Studio 2013\Projects\Chrome\src\sandbox\win\src\sandbox.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.26

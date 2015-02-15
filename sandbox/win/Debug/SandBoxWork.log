@@ -1,0 +1,268 @@
+﻿Build started 2/4/2015 8:49:05 PM.
+     1>Project "C:\Users\DAnnTheMann\Chrome\src\sandbox\win\SandBoxWork.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(942,5): warning MSB8027: Two or more files with the name of sandbox.cc will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are sandbox_poc\sandbox.cc, src\sandbox.cc.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(942,5): warning MSB8027: Two or more files with the name of unit_tests.cc will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are tests\unit_tests\unit_tests.cc, tests\validation_tests\unit_tests.cc.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SANDBOXWORK_EXPORTS /D _WINDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt sandbox_poc\main_ui_window.cc sandbox_poc\pocdll\fs.cc sandbox_poc\pocdll\handles.cc sandbox_poc\pocdll\invasive.cc sandbox_poc\pocdll\network.cc sandbox_poc\pocdll\pocdll.cc sandbox_poc\pocdll\processes_and_threads.cc sandbox_poc\pocdll\registry.cc sandbox_poc\pocdll\spyware.cc sandbox_poc\sandbox.cc src\acl.cc src\app_container.cc src\app_container_test.cc src\app_container_unittest.cc src\broker_services.cc src\crosscall_server.cc src\eat_resolver.cc src\filesystem_dispatcher.cc src\filesystem_interception.cc src\filesystem_policy.cc src\file_policy_test.cc src\handle_closer.cc src\handle_closer_agent.cc src\handle_closer_test.cc src\handle_dispatcher.cc src\handle_inheritance_test.cc src\handle_interception.cc src\handle_policy.cc src\handle_policy_test.cc src\handle_table.cc src\integrity_level_test.cc src\interception.cc src\interception_agent.cc src\interception_unittest.cc src\interceptors_64.cc src\ipc_ping_test.cc src\ipc_unittest.cc src\job.cc src\job_unittest.cc src\named_pipe_dispatcher.cc src\named_pipe_interception.cc src\named_pipe_policy.cc src\named_pipe_policy_test.cc src\policy_broker.cc src\policy_engine_opcodes.cc src\policy_engine_processor.cc src\policy_engine_unittest.cc src\policy_low_level.cc src\policy_low_level_unittest.cc src\policy_opcodes_unittest.cc src\policy_target.cc src\policy_target_test.cc src\process_mitigations.cc src\process_mitigations_test.cc src\process_mitigations_win32k_dispatcher.cc src\process_mitigations_win32k_interception.cc src\process_mitigations_win32k_policy.cc src\process_policy_test.cc src\process_thread_dispatcher.cc src\process_thread_interception.cc src\process_thread_policy.cc src\registry_dispatcher.cc src\registry_interception.cc src\registry_policy.cc src\registry_policy_test.cc src\resolver.cc src\resolver_32.cc src\resolver_64.cc src\restricted_token.cc src\restricted_token_unittest.cc src\restricted_token_utils.cc src\sandbox.cc src\sandbox_globals.cc src\sandbox_nt_util.cc src\sandbox_policy_base.cc src\sandbox_utils.cc src\service_resolver.cc src\service_resolver_32.cc src\service_resolver_64.cc src\service_resolver_unittest.cc src\sharedmem_ipc_client.cc src\sharedmem_ipc_server.cc src\shared_handles.cc src\sid.cc src\sidestep\ia32_modrm_map.cpp src\sidestep\ia32_opcode_map.cpp src\sidestep\mini_disassembler.cpp src\sidestep\preamble_patcher_with_stub.cpp src\sidestep_resolver.cc src\sid_unittest.cc src\sync_dispatcher.cc src\sync_interception.cc src\sync_policy.cc src\sync_policy_test.cc src\target_interceptions.cc src\target_process.cc src\target_services.cc src\threadpool_unittest.cc src\unload_dll_test.cc src\win2k_threadpool.cc src\window.cc src\win_utils.cc src\win_utils_unittest.cc src\Wow64.cc src\Wow64_64.cc tests\common\controller.cc tests\common\test_utils.cc tests\integration_tests\integration_tests.cc tests\integration_tests\integration_tests_test.cc tests\unit_tests\unit_tests.cc tests\validation_tests\commands.cc tests\validation_tests\suite.cc tests\validation_tests\unit_tests.cc tools\finder\finder.cc tools\finder\finder_fs.cc tools\finder\finder_kernel.cc tools\finder\finder_registry.cc tools\finder\main.cc tools\launcher\launcher.cc wow_helper\service64_resolver.cc wow_helper\target_code.cc wow_helper\wow_helper.cc
+         wow_helper.cc
+     1>wow_helper\wow_helper.cc(15): fatal error C1083: Cannot open include file: 'sandbox/win/wow_helper/service64_resolver.h': No such file or directory
+         target_code.cc
+     1>wow_helper\target_code.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/wow_helper/target_code.h': No such file or directory
+         service64_resolver.cc
+     1>wow_helper\service64_resolver.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/wow_helper/service64_resolver.h': No such file or directory
+         launcher.cc
+     1>tools\launcher\launcher.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/restricted_token_utils.h': No such file or directory
+         main.cc
+     1>tools\finder\main.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/restricted_token_utils.h': No such file or directory
+         finder_registry.cc
+     1>tools\finder\finder_registry.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/restricted_token.h': No such file or directory
+         finder_kernel.cc
+     1>tools\finder\finder_kernel.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/restricted_token.h': No such file or directory
+         finder_fs.cc
+     1>tools\finder\finder_fs.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/restricted_token.h': No such file or directory
+         finder.cc
+     1>tools\finder\finder.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/restricted_token.h': No such file or directory
+         unit_tests.cc
+     1>tests\validation_tests\unit_tests.cc(5): fatal error C1083: Cannot open include file: 'base/bind.h': No such file or directory
+         suite.cc
+     1>tests\validation_tests\suite.cc(11): fatal error C1083: Cannot open include file: 'base/win/windows_version.h': No such file or directory
+         commands.cc
+     1>tests\validation_tests\commands.cc(9): fatal error C1083: Cannot open include file: 'sandbox/win/tests/validation_tests/commands.h': No such file or directory
+         unit_tests.cc
+     1>tests\unit_tests\unit_tests.cc(5): fatal error C1083: Cannot open include file: 'base/bind.h': No such file or directory
+         integration_tests_test.cc
+     1>tests\integration_tests\integration_tests_test.cc(7): fatal error C1083: Cannot open include file: 'testing/gtest/include/gtest/gtest.h': No such file or directory
+         integration_tests.cc
+     1>tests\integration_tests\integration_tests.cc(5): fatal error C1083: Cannot open include file: 'base/bind.h': No such file or directory
+         test_utils.cc
+     1>tests\common\test_utils.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/tests/common/test_utils.h': No such file or directory
+         controller.cc
+     1>tests\common\controller.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/tests/common/controller.h': No such file or directory
+         Wow64_64.cc
+     1>src\Wow64_64.cc(7): fatal error C1083: Cannot open include file: 'sandbox/win/src/wow64.h': No such file or directory
+         Wow64.cc
+     1>src\Wow64.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/wow64.h': No such file or directory
+         win_utils_unittest.cc
+     1>src\win_utils_unittest.cc(7): fatal error C1083: Cannot open include file: 'base/win/scoped_handle.h': No such file or directory
+         Generating Code...
+         Compiling...
+         win_utils.cc
+     1>src\win_utils.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/win_utils.h': No such file or directory
+         window.cc
+     1>src\window.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/window.h': No such file or directory
+         win2k_threadpool.cc
+     1>src\win2k_threadpool.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/win2k_threadpool.h': No such file or directory
+         unload_dll_test.cc
+     1>src\unload_dll_test.cc(5): fatal error C1083: Cannot open include file: 'base/win/scoped_handle.h': No such file or directory
+         threadpool_unittest.cc
+     1>src\threadpool_unittest.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/win2k_threadpool.h': No such file or directory
+         target_services.cc
+     1>src\target_services.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/target_services.h': No such file or directory
+         target_process.cc
+     1>src\target_process.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/target_process.h': No such file or directory
+         target_interceptions.cc
+     1>src\target_interceptions.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/target_interceptions.h': No such file or directory
+         sync_policy_test.cc
+     1>src\sync_policy_test.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/sync_policy_test.h': No such file or directory
+         sync_policy.cc
+     1>src\sync_policy.cc(7): fatal error C1083: Cannot open include file: 'sandbox/win/src/sync_policy.h': No such file or directory
+         sync_interception.cc
+     1>src\sync_interception.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/sync_interception.h': No such file or directory
+         sync_dispatcher.cc
+     1>src\sync_dispatcher.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/sync_dispatcher.h': No such file or directory
+         sid_unittest.cc
+     1>src\sid_unittest.cc(11): fatal error C1083: Cannot open include file: 'sandbox/win/src/sid.h': No such file or directory
+         sidestep_resolver.cc
+     1>src\sidestep_resolver.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/sidestep_resolver.h': No such file or directory
+         preamble_patcher_with_stub.cpp
+     1>src\sidestep\preamble_patcher_with_stub.cpp(7): fatal error C1083: Cannot open include file: 'sandbox/win/src/sidestep/preamble_patcher.h': No such file or directory
+         mini_disassembler.cpp
+     1>src\sidestep\mini_disassembler.cpp(11): fatal error C1083: Cannot open include file: 'sandbox/win/src/sidestep/mini_disassembler.h': No such file or directory
+         ia32_opcode_map.cpp
+     1>src\sidestep\ia32_opcode_map.cpp(10): fatal error C1083: Cannot open include file: 'sandbox/win/src/sidestep/mini_disassembler.h': No such file or directory
+         ia32_modrm_map.cpp
+     1>src\sidestep\ia32_modrm_map.cpp(9): fatal error C1083: Cannot open include file: 'sandbox/win/src/sidestep/mini_disassembler.h': No such file or directory
+         sid.cc
+     1>src\sid.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/sid.h': No such file or directory
+         shared_handles.cc
+     1>src\shared_handles.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/shared_handles.h': No such file or directory
+         Generating Code...
+         Compiling...
+         sharedmem_ipc_server.cc
+     1>src\sharedmem_ipc_server.cc(5): fatal error C1083: Cannot open include file: 'base/callback.h': No such file or directory
+         sharedmem_ipc_client.cc
+     1>src\sharedmem_ipc_client.cc(6): fatal error C1083: Cannot open include file: 'sandbox/win/src/sharedmem_ipc_client.h': No such file or directory
+         service_resolver_unittest.cc
+     1>src\service_resolver_unittest.cc(7): fatal error C1083: Cannot open include file: 'base/basictypes.h': No such file or directory
+         service_resolver_64.cc
+     1>src\service_resolver_64.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/service_resolver.h': No such file or directory
+         service_resolver_32.cc
+     1>src\service_resolver_32.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/service_resolver.h': No such file or directory
+         service_resolver.cc
+     1>src\service_resolver.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/service_resolver.h': No such file or directory
+         sandbox_utils.cc
+     1>src\sandbox_utils.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/sandbox_utils.h': No such file or directory
+         sandbox_policy_base.cc
+     1>src\sandbox_policy_base.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/sandbox_policy_base.h': No such file or directory
+         sandbox_nt_util.cc
+     1>src\sandbox_nt_util.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/sandbox_nt_util.h': No such file or directory
+         sandbox_globals.cc
+     1>src\sandbox_globals.cc(7): fatal error C1083: Cannot open include file: 'sandbox/win/src/sandbox_nt_types.h': No such file or directory
+         sandbox.cc
+     1>src\sandbox.cc(7): fatal error C1083: Cannot open include file: 'sandbox/win/src/sandbox.h': No such file or directory
+         restricted_token_utils.cc
+     1>src\restricted_token_utils.cc(9): fatal error C1083: Cannot open include file: 'sandbox/win/src/restricted_token_utils.h': No such file or directory
+         restricted_token_unittest.cc
+     1>src\restricted_token_unittest.cc(11): fatal error C1083: Cannot open include file: 'sandbox/win/src/restricted_token.h': No such file or directory
+         restricted_token.cc
+     1>src\restricted_token.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/restricted_token.h': No such file or directory
+         resolver_64.cc
+     1>src\resolver_64.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/resolver.h': No such file or directory
+         resolver_32.cc
+     1>src\resolver_32.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/resolver.h': No such file or directory
+         resolver.cc
+     1>src\resolver.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/resolver.h': No such file or directory
+         registry_policy_test.cc
+     1>src\registry_policy_test.cc(7): fatal error C1083: Cannot open include file: 'testing/gtest/include/gtest/gtest.h': No such file or directory
+         registry_policy.cc
+     1>src\registry_policy.cc(7): fatal error C1083: Cannot open include file: 'sandbox/win/src/registry_policy.h': No such file or directory
+         registry_interception.cc
+     1>src\registry_interception.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/registry_interception.h': No such file or directory
+         Generating Code...
+         Compiling...
+         registry_dispatcher.cc
+     1>src\registry_dispatcher.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/registry_dispatcher.h': No such file or directory
+         process_thread_policy.cc
+     1>src\process_thread_policy.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/process_thread_policy.h': No such file or directory
+         process_thread_interception.cc
+     1>src\process_thread_interception.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/process_thread_interception.h': No such file or directory
+         process_thread_dispatcher.cc
+     1>src\process_thread_dispatcher.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/process_thread_dispatcher.h': No such file or directory
+         process_policy_test.cc
+     1>src\process_policy_test.cc(8): fatal error C1083: Cannot open include file: 'base/strings/string16.h': No such file or directory
+         process_mitigations_win32k_policy.cc
+     1>src\process_mitigations_win32k_policy.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/process_mitigations_win32k_policy.h': No such file or directory
+         process_mitigations_win32k_interception.cc
+     1>src\process_mitigations_win32k_interception.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/process_mitigations_win32k_interception.h': No such file or directory
+         process_mitigations_win32k_dispatcher.cc
+     1>src\process_mitigations_win32k_dispatcher.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/process_mitigations_win32k_dispatcher.h': No such file or directory
+         process_mitigations_test.cc
+     1>src\process_mitigations_test.cc(5): fatal error C1083: Cannot open include file: 'base/strings/stringprintf.h': No such file or directory
+         process_mitigations.cc
+     1>src\process_mitigations.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/process_mitigations.h': No such file or directory
+         policy_target_test.cc
+     1>src\policy_target_test.cc(5): fatal error C1083: Cannot open include file: 'base/win/scoped_process_information.h': No such file or directory
+         policy_target.cc
+     1>src\policy_target.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/policy_target.h': No such file or directory
+         policy_opcodes_unittest.cc
+     1>src\policy_opcodes_unittest.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/sandbox_types.h': No such file or directory
+         policy_low_level_unittest.cc
+     1>src\policy_low_level_unittest.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/policy_engine_params.h': No such file or directory
+         policy_low_level.cc
+     1>src\policy_low_level.cc(8): fatal error C1083: Cannot open include file: 'sandbox/win/src/policy_low_level.h': No such file or directory
+         policy_engine_unittest.cc
+     1>src\policy_engine_unittest.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/policy_engine_params.h': No such file or directory
+         policy_engine_processor.cc
+     1>src\policy_engine_processor.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/policy_engine_processor.h': No such file or directory
+         policy_engine_opcodes.cc
+     1>src\policy_engine_opcodes.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/policy_engine_opcodes.h': No such file or directory
+         policy_broker.cc
+     1>src\policy_broker.cc(7): fatal error C1083: Cannot open include file: 'sandbox/win/src/policy_broker.h': No such file or directory
+         named_pipe_policy_test.cc
+     1>src\named_pipe_policy_test.cc(5): fatal error C1083: Cannot open include file: 'base/win/windows_version.h': No such file or directory
+         Generating Code...
+         Compiling...
+         named_pipe_policy.cc
+     1>src\named_pipe_policy.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/named_pipe_policy.h': No such file or directory
+         named_pipe_interception.cc
+     1>src\named_pipe_interception.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/named_pipe_interception.h': No such file or directory
+         named_pipe_dispatcher.cc
+     1>src\named_pipe_dispatcher.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/named_pipe_dispatcher.h': No such file or directory
+         job_unittest.cc
+     1>src\job_unittest.cc(7): fatal error C1083: Cannot open include file: 'base/win/scoped_process_information.h': No such file or directory
+         job.cc
+     1>src\job.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/job.h': No such file or directory
+         ipc_unittest.cc
+     1>src\ipc_unittest.cc(5): fatal error C1083: Cannot open include file: 'base/basictypes.h': No such file or directory
+         ipc_ping_test.cc
+     1>src\ipc_ping_test.cc(5): fatal error C1083: Cannot open include file: 'testing/gtest/include/gtest/gtest.h': No such file or directory
+         interceptors_64.cc
+     1>src\interceptors_64.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/interceptors_64.h': No such file or directory
+         interception_unittest.cc
+     1>src\interception_unittest.cc(11): fatal error C1083: Cannot open include file: 'base/memory/scoped_ptr.h': No such file or directory
+         interception_agent.cc
+     1>src\interception_agent.cc(8): fatal error C1083: Cannot open include file: 'sandbox/win/src/interception_agent.h': No such file or directory
+         interception.cc
+     1>src\interception.cc(10): fatal error C1083: Cannot open include file: 'sandbox/win/src/interception.h': No such file or directory
+         integrity_level_test.cc
+     1>src\integrity_level_test.cc(8): fatal error C1083: Cannot open include file: 'base/win/windows_version.h': No such file or directory
+         handle_table.cc
+     1>src\handle_table.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/handle_table.h': No such file or directory
+         handle_policy_test.cc
+     1>src\handle_policy_test.cc(5): fatal error C1083: Cannot open include file: 'base/strings/stringprintf.h': No such file or directory
+         handle_policy.cc
+     1>src\handle_policy.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/handle_policy.h': No such file or directory
+         handle_interception.cc
+     1>src\handle_interception.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/handle_interception.h': No such file or directory
+         handle_inheritance_test.cc
+     1>src\handle_inheritance_test.cc(7): fatal error C1083: Cannot open include file: 'base/files/file_util.h': No such file or directory
+         handle_dispatcher.cc
+     1>src\handle_dispatcher.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/handle_dispatcher.h': No such file or directory
+         handle_closer_test.cc
+     1>src\handle_closer_test.cc(5): fatal error C1083: Cannot open include file: 'base/strings/stringprintf.h': No such file or directory
+         handle_closer_agent.cc
+     1>src\handle_closer_agent.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/handle_closer_agent.h': No such file or directory
+         Generating Code...
+         Compiling...
+         handle_closer.cc
+     1>src\handle_closer.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/handle_closer.h': No such file or directory
+         file_policy_test.cc
+     1>src\file_policy_test.cc(11): fatal error C1083: Cannot open include file: 'base/win/scoped_handle.h': No such file or directory
+         filesystem_policy.cc
+     1>src\filesystem_policy.cc(7): fatal error C1083: Cannot open include file: 'sandbox/win/src/filesystem_policy.h': No such file or directory
+         filesystem_interception.cc
+     1>src\filesystem_interception.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/filesystem_interception.h': No such file or directory
+         filesystem_dispatcher.cc
+     1>src\filesystem_dispatcher.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/filesystem_dispatcher.h': No such file or directory
+         eat_resolver.cc
+     1>src\eat_resolver.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/eat_resolver.h': No such file or directory
+         crosscall_server.cc
+     1>src\crosscall_server.cc(8): fatal error C1083: Cannot open include file: 'sandbox/win/src/crosscall_server.h': No such file or directory
+         broker_services.cc
+     1>src\broker_services.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/broker_services.h': No such file or directory
+         app_container_unittest.cc
+     1>src\app_container_unittest.cc(5): fatal error C1083: Cannot open include file: 'base/win/windows_version.h': No such file or directory
+         app_container_test.cc
+     1>src\app_container_test.cc(11): fatal error C1083: Cannot open include file: 'base/strings/string16.h': No such file or directory
+         app_container.cc
+     1>src\app_container.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/app_container.h': No such file or directory
+         acl.cc
+     1>src\acl.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/src/acl.h': No such file or directory
+         sandbox.cc
+     1>sandbox_poc\sandbox.cc(8): fatal error C1083: Cannot open include file: 'sandbox/win/sandbox_poc/sandbox.h': No such file or directory
+         spyware.cc
+     1>sandbox_poc\pocdll\spyware.cc(7): fatal error C1083: Cannot open include file: 'base/strings/string16.h': No such file or directory
+         registry.cc
+     1>sandbox_poc\pocdll\registry.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/sandbox_poc/pocdll/exports.h': No such file or directory
+         processes_and_threads.cc
+     1>sandbox_poc\pocdll\processes_and_threads.cc(7): fatal error C1083: Cannot open include file: 'sandbox/win/sandbox_poc/pocdll/exports.h': No such file or directory
+         pocdll.cc
+     1>sandbox_poc\pocdll\pocdll.cc(6): fatal error C1083: Cannot open include file: 'sandbox/win/sandbox_poc/pocdll/exports.h': No such file or directory
+         network.cc
+     1>sandbox_poc\pocdll\network.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/sandbox_poc/pocdll/exports.h': No such file or directory
+         invasive.cc
+     1>sandbox_poc\pocdll\invasive.cc(6): fatal error C1083: Cannot open include file: 'sandbox/win/sandbox_poc/pocdll/exports.h': No such file or directory
+         handles.cc
+     1>sandbox_poc\pocdll\handles.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/sandbox_poc/pocdll/exports.h': No such file or directory
+         Generating Code...
+         Compiling...
+         fs.cc
+     1>sandbox_poc\pocdll\fs.cc(5): fatal error C1083: Cannot open include file: 'sandbox/win/sandbox_poc/pocdll/exports.h': No such file or directory
+         main_ui_window.cc
+     1>sandbox_poc\main_ui_window.cc(15): fatal error C1083: Cannot open include file: 'sandbox/win/sandbox_poc/main_ui_window.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\DAnnTheMann\Chrome\src\sandbox\win\SandBoxWork.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:17.75
